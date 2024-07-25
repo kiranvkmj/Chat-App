@@ -6,7 +6,7 @@ import generateTokenAndSetCookie from '../utils/generateToken.js';
 export const signup = async (req, res) => {
   try {
     const { fullName, username, password, confirmPassword, gender } = req.body;
-      console.log("check has been passes. it has beem fetched");
+      console.log("check has been passed. it has been fetched");
     if (!fullName || !username || !password || !confirmPassword || !gender) {
       return res.status(400).json({ error: 'All fields are required' });
     }
