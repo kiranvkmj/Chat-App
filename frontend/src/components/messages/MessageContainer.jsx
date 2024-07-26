@@ -48,8 +48,6 @@ const NoChatSelected = () => {
 
 
 
-
-
 // STARTER CODE FOR THIS FILE 
 
 // import MessageInput from "./MessageInput";
